@@ -23,8 +23,8 @@ Read or watch:
 ### 0. Welcome.
 Creating a `User` class:
 
-- That contain propertie called `name`
-- and a method called `showName` that return string representation of User “Hello `name`”
+- That contains a property called `name`
+- and a method called `showName` that returns string representation of User “Hello `name`”
 ```sh
 youssef@Holberton/Dart$ cat 0-main.dart
 import '0-class.dart';
