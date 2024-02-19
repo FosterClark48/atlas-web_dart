@@ -2,7 +2,7 @@
 import '4-util.dart';
 import 'dart:convert' as convert;
 
-Future<double> calculateTotal() async {
+Future<String> calculateTotal() async {
   double totalPrice = 0.0;
   try {
     // Get User data - id
@@ -21,8 +21,8 @@ Future<double> calculateTotal() async {
       totalPrice += itemPrice;
     }
 
-    return totalPrice;
+    return totalPrice.toString();
   } catch (e) {
-    return -1;
+    return '-1';
   }
 }
